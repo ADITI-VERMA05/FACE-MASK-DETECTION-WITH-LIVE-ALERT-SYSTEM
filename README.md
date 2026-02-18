@@ -9,7 +9,7 @@ https://www.kaggle.com/datasets/omkargurav/face-mask-dataset
 ## How to run
 
 ```bash
-conda create -n venv python==3.10 -y
+conda create -p venv python==3.10 -y
 ```
 
 ```bash
