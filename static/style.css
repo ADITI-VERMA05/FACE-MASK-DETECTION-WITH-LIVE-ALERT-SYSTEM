@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background: rgb(31, 107, 139);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #060606;
+}
+
+.wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    background: rgb(109, 177, 207);
+    -webkit-backdrop-filter: blur(20px);
+    backdrop-filter: blur(20px);
+    border-radius: 20px;
+    padding: 40px;
+    width: 750px;
+    text-align: center;
+    box-shadow: 0 8px 32px rgba(35, 71, 86, 0.853);
+}
+
+h1 {
+    font-weight: 500;
+    font-size: 32px;
+    letter-spacing: 1px;
+}
+
+.subtitle {
+    margin-top: 5px;
+    font-size: 14px;
+    color: #1a1d20;
+}
+
+.video-container {
+    margin-top: 30px;
+    border-radius: 15px;
+    overflow: hidden;
+    border: 1px solid rgba(109, 177, 207);
+}
+
+.video-container img {
+    width: 100%;
+    border-radius: 15px;
+}
+
+.legend {
+    margin-top: 25px;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    font-size: 14px;
+}
+
+.mask {
+    color: rgb(8, 105, 48);
+}
+
+.nomask {
+    color: rgb(168, 65, 6);
+}
+
+.alert {
+    margin-top: 20px;
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-size: 14px;
+    transition: 0.3s ease;
+}
+
+.hidden {
+    display: none;
+}

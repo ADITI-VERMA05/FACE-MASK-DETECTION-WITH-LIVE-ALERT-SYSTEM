@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Face Mask Detection</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    
+<div id="alertBox" class="alert hidden">
+    Status: Detecting...
+</div>
+
+<div class="wrapper">
+
+    <div class="card">
+        <h1>Face Mask Detection</h1>
+        <p class="subtitle">Real-time AI Monitoring System</p>
+
+        <div class="video-container">
+            <img src="{{ url_for('video') }}" alt="Live video feed from face mask detection system" />
+        </div>
+
+        <div class="legend">
+            <span class="mask">● Mask Detected</span>
+            <span class="nomask">● No Mask Alert</span>
+        </div>
+    </div>
+
+</div>
+
+</body>
+</html>
