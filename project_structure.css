@@ -1,0 +1,34 @@
+/* Manual enforcement of mask-wearing guidelines in public and private spaces is inefficient and unreliable.  
+This project addresses the lack of automated, real-time monitoring by developing a computer vision-based system 
+that detects face masks in live video streams and triggers an immediate alert when a person is unmasked.
+
+face-mask-detection/
+│
+├── dataset/
+│   ├── with_mask/
+│   └── without_mask/
+│
+├── model/
+│   └── mask_detector.h5
+│
+├── notebooks/
+│   ├── Preprocessing.ipynb
+│   └── Train.ipynb
+│
+├── src/
+│    ├── Preprocessing.py
+│    ├── train_model.py
+│    └── pipeline.py
+│
+├── app.py
+│
+├── templates/
+│    └── index.html
+│
+├── static/
+│    └── style.html
+│
+├── LICENSE
+├── requirements.txt
+└── README.md
+*/
